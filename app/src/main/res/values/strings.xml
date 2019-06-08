@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">This Stickies</string>
+    <string name="folder">Folder</string>
+    <string name="stickies">Stickies</string>
+    <string name="bucket">Bucket</string>
+</resources>
