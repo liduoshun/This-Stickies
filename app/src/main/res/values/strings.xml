@@ -2,5 +2,12 @@
     <string name="app_name">This Stickies</string>
     <string name="folder">Folder</string>
     <string name="stickies">Stickies</string>
-    <string name="bucket">Bucket</string>
+    <string name="bucket">Trash</string>
+    <string name="hint_word">Sticky...</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Word not saved because it is empty.</string>
+    <string name="topic">Topic</string>
+    <string name="share">share</string>
+    <string name="share_using">share   using</string>
+    <string name="edit">edit</string>
 </resources>

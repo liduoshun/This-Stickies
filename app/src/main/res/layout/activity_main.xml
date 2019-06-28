@@ -10,29 +10,30 @@
         android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="match_parent"
-        android:orientation="vertical">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="54dp"
-            android:layout_margin="16dp"
-            android:textSize="33dp"
-            android:text="@string/folder" />
+        android:orientation="vertical"
+        android:background="@color/green">
         <TextView
             android:id="@+id/sticky"
             android:layout_width="match_parent"
             android:layout_height="54dp"
             android:layout_margin="16dp"
             android:textSize="33dp"
-            android:text="@string/stickies" />
+            android:text="@string/stickies"
+            android:gravity="center"
+            android:background="@color/yellow" />
         <TextView
+            android:id="@+id/trash"
             android:layout_width="match_parent"
             android:layout_height="54dp"
             android:layout_margin="16dp"
             android:textSize="33dp"
+            android:gravity="center"
+            android:background="@color/yellow"
             android:text="@string/bucket" />
     </LinearLayout>
 
     <FrameLayout
+        android:background="@color/blue"
         android:id="@+id/frame"
         android:layout_width="0dp"
         android:layout_weight="1"
